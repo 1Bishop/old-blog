@@ -459,35 +459,37 @@ function theme() {
         toggleText.text(toggle.attr('data-dark'));
     }
 
-    function light() {
-        html.removeClass('theme-dark').addClass('theme-light');
-        localStorage.setItem('dawn_theme', 'light');
-        toggleText.text(toggle.attr('data-light'));
-    }
+    dark()
 
-    switch (localStorage.getItem('dawn_theme')) {
-        case 'dark':
-            dark();
-            break;
-        case 'light':
-            light();
-            break;
-        default:
-            system();
-            break;
-    }
+    // function light() {
+    //     html.removeClass('theme-dark').addClass('theme-light');
+    //     localStorage.setItem('dawn_theme', 'light');
+    //     toggleText.text(toggle.attr('data-light'));
+    // }
 
-    toggle.on('click', function (e) {
-        e.preventDefault();
+    // switch (localStorage.getItem('dawn_theme')) {
+    //     case 'dark':
+    //         dark();
+    //         break;
+    //     case 'light':
+    //         light();
+    //         break;
+    //     default:
+    //         system();
+    //         break;
+    // }
 
-        if (!html.hasClass('theme-dark') && !html.hasClass('theme-light')) {
-            dark();
-        } else if (html.hasClass('theme-dark')) {
-            light();
-        } else {
-            system();
-        }
-    });
+    // toggle.on('click', function (e) {
+    //     e.preventDefault();
+
+    //     if (!html.hasClass('theme-dark') && !html.hasClass('theme-light')) {
+    //         dark();
+    //     } else if (html.hasClass('theme-dark')) {
+    //         light();
+    //     } else {
+    //         system();
+    //     }
+    // });
 }
 
 function pswp(container, element, trigger, caption, isGallery) {
