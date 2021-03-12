@@ -1,6 +1,6 @@
 {
-    "name": "bishoptech-io",
-    "description": "Bishop Tech Blog Theme",
+    "name": "polar-bear",
+    "description": "Polar Bear is the Ghost theme used for Bishop Tech Blog",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
