@@ -4,6 +4,10 @@
             <div class="cover-icon">
                 <img class="cover-icon-image" src="{{@site.icon}}" alt="{{@site.title}}">
             </div>
+        {{else}}
+            <div class="cover-icon">
+                <img class="cover-icon-image" src="{{asset 'images/branding/logo.svg' }}" alt="{{@site.title}}">
+            </div>
         {{/if}}
 
         {{#if @site.description}}
