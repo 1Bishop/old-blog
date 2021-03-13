@@ -6,8 +6,8 @@ routes:
   /upgrade/: members/upgrade
 
 collections:
-  /:
-    permalink: /{slug}/
+  /blog/:
+    permalink: /blog/{slug}/
     template: index
 
 # collections:
