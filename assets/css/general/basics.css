@@ -9,7 +9,7 @@
     --animation-base: ease-in-out;
     --font-base: mulish;
     --font-mono: menlo;
-    --navbar-height: 80px;
+    --navbar-height: 100px;
 }
 
 @media (max-width: 767px) {

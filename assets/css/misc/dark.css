@@ -1,5 +1,5 @@
 .theme-dark:root {
-    --brand-color: #ff572f;
+    --brand-color: #a4c9ee;
     --primary-text-color: #e2e2e2;
     --secondary-text-color: #868686;
     --white-color: #282c35;
@@ -9,6 +9,26 @@
     --dark-gray-color: #e6e6e6;
     --darker-gray-color: #fff;
 }
+
+/*
+Original:
+    --white-color: #282c35;
+    --lighter-gray-color: #2f333c;
+    --light-gray-color: #3b3e46;
+    --mid-gray-color: #666;
+    --dark-gray-color: #e6e6e6;
+    --darker-gray-color: #fff;
+
+bishop tech:
+    --primary-text-color: #e2e2e2;
+    --secondary-text-color: #868686;
+    --white-color: #0b1422;
+    --lighter-gray-color: #132744;
+    --light-gray-color: #2c486d;
+    --mid-gray-color: #555b65;
+    --dark-gray-color: #ebf7fc;
+    --darker-gray-color: #fff;
+*/
 
 .theme-dark .logo-image.white + .logo-image,
 .theme-dark .cover-icon-image.white + .cover-icon-image {
@@ -42,7 +62,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    html:not(.theme-light):root {
+    /* html:not(.theme-light):root {
         --primary-text-color: #e2e2e2;
         --secondary-text-color: #868686;
         --white-color: #282c35;
@@ -51,7 +71,7 @@
         --mid-gray-color: #666;
         --dark-gray-color: #e6e6e6;
         --darker-gray-color: #fff;
-    }
+    } */
 
     html:not(.theme-light) .logo-image.white + .logo-image,
     html:not(.theme-light) .cover-icon-image.white + .cover-icon-image {
