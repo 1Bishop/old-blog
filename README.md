@@ -40,6 +40,7 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 - [ ] Style Guide PDF (colors and usage)
 - [ ] Update Business Cards
 - [ ] Series Posters (Rectangle) in canva
+- [ ] Square Logo image 800x800px
 
 # Theme
 
