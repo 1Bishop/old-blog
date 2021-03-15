@@ -3,8 +3,8 @@ on:
   pull_request:
   push:
     branches:
-      - master
-      - 'renovate/*'
+      - main
+      - "renovate/*"
 jobs:
   test:
     runs-on: ubuntu-latest
