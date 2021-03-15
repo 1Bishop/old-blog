@@ -8,19 +8,35 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 
 # TODO
 
-- [ ] Added FormSpree
+- [x] Added FormSpree
 - [ ] Set up footer
 - [ ] Fix author on posts
 - [ ] Add my icons:
   - [ ] post next and prev
   - [ ] look at getting search and menu icons
+- [ ] Add highlight.js to site code blocks
+- [ ] Add custom fonts to theme (source code pro and dank mono)
 - [ ] add tailwindcss?
 - [ ] Set up home page
 - [ ] Fix blog page to have bg + Blog Text
 - [ ] Make about page
-- [ ] Tag page
+- [ ] Tags page (listing out series)
 - [ ] Add homepage photos
+- [ ] Create Contact Page
 - [ ] Resume Page
+
+# Tasks for Cristain
+
+- [ ] Update Canva Templates
+- [ ] Icons:
+  - [ ] Site menu
+  - [ ] table of contents
+  - [ ] Search Icons
+  - [ ] RSS
+- [ ] Style guide (colors and usage)
+- [ ] Update Business Cards
+- [ ]
+- [ ]
 
 # Theme
 
