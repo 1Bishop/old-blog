@@ -6,6 +6,22 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 
 &nbsp;
 
+# TODO
+
+- [ ] Added FormSpree
+- [ ] Set up footer
+- [ ] Fix author on posts
+- [ ] Add my icons:
+  - [ ] post next and prev
+  - [ ] look at getting search and menu icons
+- [ ] add tailwindcss?
+- [ ] Set up home page
+- [ ] Fix blog page to have bg + Blog Text
+- [ ] Make about page
+- [ ] Tag page
+- [ ] Add homepage photos
+- [ ] Resume Page
+
 # Theme
 
 1. Edit colors in the `misc/dark.css`
@@ -18,36 +34,14 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 
 ```html
 <script>
-    var gh_search_key = "API_KEY";
-    var gh_search_migration = "v1";
+  var gh_search_key = "API_KEY";
+  var gh_search_migration = "v1";
 </script>
 ```
 
 The theme generates an index of posts for highly performant search. The index is updated automatically when posts are added or updated. However, it isn't updated when posts are unpublished or deleted.
 
 To force update the index, increment the search index migration version like `'v2'`.
-
-## Disable Content Search
-
-When your site has lots of posts, including the post content in the index cache ends up with exceeding the browser local storage quota. In that case, disabling content search is recommended. Also make sure increase the migration version to force update the old index.
-
-```html
-<script>
-    var gh_search_key = "API_KEY";
-    var gh_search_migration = "v2"; // Increased from v1
-    var gh_search_content = false; // Disables content search
-</script>
-```
-
-# White Logo
-
-If your logo image isn't recognizable in dark mode, you can set a white version of the logo in `Code injection > Site Header` field.
-
-```html
-<script>
-    var gh_white_logo = "https://example.com/content/images/white-logo.png";
-</script>
-```
 
 # Dropdown Menu
 
@@ -81,7 +75,7 @@ yarn zip
 
 # PostCSS Features Used
 
--   Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
+- Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
 
 # Copyright & License
 
