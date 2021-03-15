@@ -21,9 +21,13 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 - [ ] Fix blog page to have bg + Blog Text
 - [ ] Make about page
 - [ ] Tags page (listing out series)
-- [ ] Add homepage photos
+- [ ] set up Author Page to link to about
+- [ ] Add Share to LinkedIn Button
 - [ ] Create Contact Page
+- [ ] Set up Subscriptions
+- [ ] Set up Zapier
 - [ ] Resume Page
+- [ ] Style HR in the home page to look like a dotted line (pixels)
 
 # Tasks for Cristain
 
@@ -33,10 +37,9 @@ A highly functional theme that adapts to the reader's preferences. Let them read
   - [ ] table of contents
   - [ ] Search Icons
   - [ ] RSS
-- [ ] Style guide (colors and usage)
+- [ ] Style Guide PDF (colors and usage)
 - [ ] Update Business Cards
-- [ ]
-- [ ]
+- [ ] Series Posters (Rectangle) in canva
 
 # Theme
 
