@@ -10,6 +10,8 @@ const uglify = require('gulp-uglify');
 const beeper = require('beeper');
 const zip = require('gulp-zip');
 
+const tailwind = require('tailwindcss');
+
 // postcss plugins
 const easyimport = require('postcss-easy-import');
 const autoprefixer = require('autoprefixer');
@@ -41,6 +43,7 @@ function css(done) {
         src('assets/css/screen.css', {sourcemaps: true}),
         postcss([
             easyimport,
+            tailwind(), 
             autoprefixer(),
             cssnano()
         ]),
