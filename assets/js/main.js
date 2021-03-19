@@ -443,10 +443,10 @@ function burger() {
     });
 }
 
-// function theme() {
-//     'use strict';
-//     var toggle = $('.js-theme');
-//     var toggleText = toggle.find('.theme-text');
+function theme() {
+    'use strict';
+    var toggle = $('.js-theme');
+    var toggleText = toggle.find('.theme-text');
 
     // function system() {
     //     html.removeClass(['theme-dark', 'theme-light']);
@@ -491,7 +491,7 @@ function burger() {
     //         system();
     //     }
     // });
-// }
+}
 
 
 function pswp(container, element, trigger, caption, isGallery) {
