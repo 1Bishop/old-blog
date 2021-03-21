@@ -4,11 +4,25 @@ routes:
   /signin/: members/signin
   /account/: members/account
   /upgrade/: members/upgrade
+  /resume/:
+    template: resume
+    data: page.resume
+  /about/:
+    template: about
+    data: page.about
+  /:
+    data: page.home
+    template: home
 
 collections:
   /blog/:
     permalink: /blog/{slug}/
     template: index
+
+# collections:
+#   /:
+#     permalink: /{slug}/
+#     template: index
 
 # collections:
 #   /blog/:
