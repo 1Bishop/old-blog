@@ -1,9 +1,9 @@
 :root {
   /* Theme Colors */
   --brand-color: #a4c9ee;
-  --primary-text-color: #e2e2e2;
-  --secondary-text-color: #868686;
-  --white-color: #282c35;
+  --primary-text-color: #f1f2f2;
+  --secondary-text-color: #ebf7fc;
+  --white-color: #0b1422;
   --lighter-gray-color: #2f333c;
   --light-gray-color: #3b3e46;
   --mid-gray-color: #666;
@@ -23,6 +23,20 @@
   --font-mono: menlo;
   --navbar-height: 100px;
 }
+
+/*
+
+--brand-color: #a4c9ee;
+--primary-text-color: #e2e2e2;
+--secondary-text-color: #868686;
+--white-color: #282c35;
+--lighter-gray-color: #2f333c;
+--light-gray-color: #3b3e46;
+--mid-gray-color: #666;
+--dark-gray-color: #e6e6e6;
+--darker-gray-color: #fff;
+
+*/
 
 @media (max-width: 767px) {
   :root {
