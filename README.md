@@ -9,6 +9,7 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 # TODO
 
 - [x] Added FormSpree
+- [ ] Update Canva Templates
 - [ ] Set up footer
 - [ ] Fix author on posts
 - [ ] Add my icons:
@@ -16,7 +17,7 @@ A highly functional theme that adapts to the reader's preferences. Let them read
   - [ ] look at getting search and menu icons
 - [ ] Add highlight.js to site code blocks
 - [ ] Add custom fonts to theme (source code pro and dank mono)
-- [ ] add tailwindcss?
+- [x] add tailwindcss?
 - [ ] Set up home page
 - [ ] Fix blog page to have bg + Blog Text
 - [ ] Make about page
@@ -29,9 +30,24 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 - [ ] Resume Page
 - [ ] Style HR in the home page to look like a dotted line (pixels)
 
+# Colors:
+
+Light Grey: f1f2f2
+Dark Blue: 0b1422
+Light Blue: 92ccef
+
+Dark Mountain Blues:
+Shade - 142844
+Light - 2d486c
+
+Light Mountain Blues:
+Shade - 92ccef
+Light - ebf7fc
+
+Additional Blue that is not used often but can be added - 2c6baf (Saturated Neutral Blue)
+
 # Tasks for Cristain
 
-- [ ] Update Canva Templates
 - [ ] Icons:
   - [ ] Site menu
   - [ ] table of contents
