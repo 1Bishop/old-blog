@@ -10,26 +10,30 @@ routes:
   /about/:
     template: about
     data: page.about
-  /:
-    data: page.home
-    template: home
 
 collections:
-  /blog/:
-    permalink: /blog/{slug}/
+  /:
+    permalink: /{slug}/
     template: index
 
-# collections:
-#   /:
-#     permalink: /{slug}/
-#     template: index
-
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
 # collections:
 #   /blog/:
 #     permalink: /blog/{slug}/
 #     template: index
 #     filter: tag:-blog
 #     data: tag.blog
+# routes:
+# /:
+#   data: page.home
+#   template: home
+
+# collections:
+#   /blog/:
+#     permalink: /blog/{slug}/
+#     template: index
 
 # Using Private tags
 # /posts/:
@@ -37,7 +41,3 @@ collections:
 #   template: index
 #   filter: tag:hash-post
 #   filter: tag:[iphone,ipad,mac]
-
-taxonomies:
-  tag: /tag/{slug}/
-  author: /author/{slug}/

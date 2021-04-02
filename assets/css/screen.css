@@ -41,6 +41,10 @@
 @import "misc/animations.css";
 @import "misc/dark.css";
 
-.gh-portal-signup-logo {
-  background-color: #0b1422;
+img.gh-portal-signup-logo {
+  background: #0b1422 !important;
 }
+
+/* body {
+  background-color: aliceblue;
+} */
