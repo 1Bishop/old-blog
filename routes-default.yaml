@@ -10,20 +10,6 @@ collections:
     permalink: /{slug}/
     template: index
 
-# collections:
-#   /blog/:
-#     permalink: /blog/{slug}/
-#     template: index
-#     filter: tag:-blog
-#     data: tag.blog
-
-# Using Private tags
-# /posts/:
-#   permalink: /posts/{slug}/
-#   template: index
-#   filter: tag:hash-post
-#   filter: tag:[iphone,ipad,mac]
-
 taxonomies:
   tag: /tag/{slug}/
   author: /author/{slug}/
