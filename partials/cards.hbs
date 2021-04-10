@@ -1,0 +1,45 @@
+
+<article class="feed flex flex-col md:flex-row {{post_class}}">
+  {{!-- <img src="{{img_url feature_image size="s"}}" alt="{{title}}" class="h-48">  --}}
+  <a href="{{url}}" class="h-auto mr-4">
+    <img src="{{img_url feature_image size="s"}}" alt="{{title}}" class="object-cover w-full h-60"> 
+  </a>
+  {{!-- 197 x 120 --}}
+  <div class="flex flex-col justify-between w-full h-48 my-2">
+    {{!-- Tag and Premium --}}
+      <div class="flex flex-row justify-between">
+        {{#primary_tag}}
+          <a class="px-4 py-2 m-0 text-white rounded-full" href="{{url}}" style="background-color: {{accent_color}};">
+            {{name}}
+          </a>
+        {{/primary_tag}}
+        {{#if @labs.members}}
+          <div class="px-4 py-2 m-0 text-white rounded-full bg-light-blue feed-visibility-{{visibility}}">
+            Paid
+          </div>
+        {{/if}}
+      </div>
+      
+      {{!-- Title --}}
+      <a href="{{url}}">  
+        <h2 class="m-0 text-4xl">
+          {{title}}
+        </h2>
+      </a>
+
+      {{!-- Date, Reading Time & Read More --}}
+      <div class="flex flex-row justify-between text-2xl">
+        {{!-- Date and Reading time --}}
+        <span>
+        {{date published_at format="MMMM DD YYYY"}} | {{reading_time}}
+        </span>
+        {{!-- Read More --}}
+        <a href="{{url}}">
+            Read More >
+        </a>
+      </div>
+
+
+  </div>
+
+</article>
