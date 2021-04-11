@@ -9,7 +9,7 @@
                     {{#if description}}
                         <div class="tag-description">{{description}}</div>
                     {{/if}}
-                    {{#get "tags" limit="all" filter="id:-{{id}}+visibility:public" as |tags|}}
+                    {{#get "tags" limit="3" filter="id:-{{id}}+visibility:public" as |tags|}}
                         {{#if tags}}
                             <div class="tag-list">
                                 <span class="tag-list-label">More:</span>
@@ -18,7 +18,7 @@
                                 {{/foreach}}
                             </div>
                         {{/if}}
-                    {{/get}}
+                    {{/get}}    
                 </div>
                 {{#if feature_image}}
                     <div class="container">
@@ -29,9 +29,9 @@
                 {{/if}}
             </section>
         {{/tag}}
-        <div class="post-feed container medium">
+        <div class="container post-feed medium">
             {{#foreach posts visibility="all"}}
-                {{> "loop"}}
+                {{> "cards"}}
             {{/foreach}}
         </div>
         {{pagination}}
