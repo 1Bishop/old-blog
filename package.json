@@ -69,5 +69,8 @@
     },
     "browserslist": [
         "defaults"
-    ]
+    ],
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0"
+    }
 }
