@@ -2,23 +2,31 @@
 <article class="feed flex flex-col md:flex-row {{post_class}}">
   {{!-- <img src="{{img_url feature_image size="s"}}" alt="{{title}}" class="h-48">  --}}
   
-  <a href="{{url}}" class="h-auto mr-4">
+  <a href="{{url}}" class="mb-4 md:h-auto md:mr-4 md:mb-0">
     <img src="{{img_url feature_image size="s"}}" alt="{{title}}" class="object-cover w-full h-60"> 
   </a>
 
   <div class="flex flex-col justify-between w-full h-48 my-2">
-    {{!-- Tag and Premium --}}
+    {{!-- Tag and VIP --}}
       <div class="flex flex-row justify-between">
         {{#primary_tag}}
           <a class="px-4 py-2 m-0 text-white rounded-full" href="{{url}}" style="background-color: {{accent_color}};">
             {{name}}
           </a>
         {{/primary_tag}}
-        {{#if @labs.members}}
-          <div class="px-4 py-2 m-0 text-white rounded-full bg-light-blue feed-visibility-{{visibility}}">
-            Paid
+        
+        {{#has visibility="paid"}}
+          <div class="p-2 m-0 text-white border-2 border-yellow-200 ">
+            ⭐️ VIP
           </div>
-        {{/if}}
+        {{/has}}
+
+        {{#has visibility="members"}}
+          <div class="p-2 m-0 text-white border-2 border-light-blue ">
+            Members
+          </div>
+        {{/has}}
+        
       </div>
       
       {{!-- Title --}}
