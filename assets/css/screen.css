@@ -49,3 +49,8 @@
 .header-right {
   font-size: 1.7rem;
 }
+
+.cover-cta .button {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
