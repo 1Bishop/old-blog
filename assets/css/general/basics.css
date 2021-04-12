@@ -23,16 +23,6 @@
   --font-base: "dm", "Source Code Pro", mulish;
   --font-mono: "dm", "Source Code Pro", menlo;
 
-  /* Fonts */
-
-  /* @font-face {
-    font-family: "CustomFont";
-    src: url("CustomFont.eot");
-    src: url("CustomFont.woff") format("woff"),
-    url("CustomFont.otf") format("opentype"),
-    url("CustomFont.svg#filename") format("svg");
-  } */
-
   /*
   Original:
   base: mulish;

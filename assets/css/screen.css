@@ -4,8 +4,6 @@
 @import "tailwindcss/utilities";
 @import "bishop/dmvendor.css";
 
-/* @import "bishop/prism-nord.css"; */
-
 /* Theme CSS */
 @import "general/normalize.css";
 @import "general/basics.css";
@@ -43,3 +41,11 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
+
+.main-nav {
+  font-size: 1.7rem;
+}
+
+.header-right {
+  font-size: 1.7rem;
+}
