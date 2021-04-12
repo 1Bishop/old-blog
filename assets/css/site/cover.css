@@ -28,7 +28,7 @@
 }
 
 .cover-description {
-  font-family: monospace;
+  font-family: var(--font-base);
 }
 
 .cover-cta {

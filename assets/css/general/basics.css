@@ -17,15 +17,28 @@
   --red-color: #dc3545;
   --facebook-color: #3b5998;
   --twitter-color: #1da1f2;
+  --linkedin-color: #0a66c2;
   --rss-color: #f26522;
   --animation-base: ease-in-out;
-  --font-base: mulish;
-  --font-mono: menlo;
+  --font-base: dank mono;
+  --font-mono: dank mono;
+
+  /* Fonts */
+
+  /*
+  Original:
+  base: mulish;
+  mono: menlo;
+
+  Bishop:
+  base: "Source Code Pro";
+  mono: "Dank Mono";
+  */
+
   --navbar-height: 100px;
 }
 
 /*
-
 --brand-color: #a4c9ee;
 --primary-text-color: #e2e2e2;
 --secondary-text-color: #868686;
@@ -35,9 +48,9 @@
 --mid-gray-color: #666;
 --dark-gray-color: #e6e6e6;
 --darker-gray-color: #fff;
-
+  --font-base: mulish;
+  --font-mono: menlo;
 */
-
 @media (max-width: 767px) {
   :root {
     --navbar-height: 70px;

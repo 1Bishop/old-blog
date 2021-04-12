@@ -40,7 +40,4 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
-
-/* body {
-  background-color: aliceblue;
-} */
+@import "bishop/dmvendor.css";
