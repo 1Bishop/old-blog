@@ -1,17 +1,10 @@
-<div class="cover container">
+<div class="container cover">
     <div class="cover-content">
-        {{#if @site.icon}}
-            <div class="cover-icon">
-                <img class="cover-icon-image" src="{{@site.icon}}" alt="{{@site.title}}">
-            </div>
-        {{else}}
-            <div class="cover-icon">
-                <img class="cover-icon-image" src="{{asset 'images/branding/logo.svg' }}" alt="{{@site.title}}">
-            </div>
-        {{/if}}
 
         {{#if @site.description}}
-            <div class="cover-description">{{@site.description}}</div>
+            <div class="mb-8 text-6xl cover-description">
+                {{@site.description}}
+            </div>
         {{/if}}
 
         {{#if @labs.members}}
