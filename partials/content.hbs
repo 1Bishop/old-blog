@@ -79,7 +79,7 @@
         {{/if}}
     </div>
     {{#is "post"}}
-        <footer class="single-footer container medium">
+        <footer class="container single-footer medium">
             <div class="single-footer-left">
                 {{#prev_post}}
                     <div class="navigation navigation-previous">
@@ -112,6 +112,14 @@
                 </div>
                 <div class="single-footer-bottom">
                     <div class="share">
+                        <a class="share-link share-link-twitter"
+                            href="https://www.linkedin.com/sharing/share-offsite/?url={{url absolute="true"}}"
+                            target="_blank" rel="noopener noreferrer">
+                            <svg class="icon icon-twitter">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                            Share
+                        </a>
                         <a class="share-link share-link-facebook"
                             href="https://www.facebook.com/sharer.php?u={{url absolute="true"}}"
                             target="_blank" rel="noopener noreferrer">
@@ -127,7 +135,7 @@
                                 <use xlink:href="#twitter"></use>
                             </svg>
                             Tweet
-                        </a>
+                        </a>    
                     </div>
                 </div>
             </div>
