@@ -2,6 +2,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "bishop/dmvendor.css";
 
 /* Theme CSS */
 @import "general/normalize.css";
@@ -40,4 +41,3 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
-@import "bishop/dmvendor.css";
