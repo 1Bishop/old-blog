@@ -20,8 +20,8 @@
   --linkedin-color: #0a66c2;
   --rss-color: #f26522;
   --animation-base: ease-in-out;
-  --font-base: "Dank Mono", "Source Code Pro", mulish;
-  --font-mono: "Dank Mono", "Source Code Pro", menlo;
+  --font-base: "dm", "Source Code Pro", mulish;
+  --font-mono: "dm", "Source Code Pro", menlo;
 
   /* Fonts */
 
