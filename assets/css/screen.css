@@ -54,3 +54,11 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
