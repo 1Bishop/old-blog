@@ -42,6 +42,8 @@
 @import "misc/animations.css";
 @import "misc/dark.css";
 
+/* My Additions: */
+
 .main-nav {
   font-size: 1.7rem;
 }
@@ -61,4 +63,8 @@ ul {
 
 ol {
   list-style: decimal;
+}
+
+.site-content {
+  padding: 8rem 0;
 }
