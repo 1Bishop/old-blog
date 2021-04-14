@@ -1,38 +1,22 @@
-<footer class="site-footer container">
-    <div class="social">
-        {{#if @site.facebook}}
-            <a class="social-item social-item-facebook"
-                href="{{facebook_url @site.facebook}}" target="_blank"
-                rel="noopener noreferrer" aria-label="Facebook">
-                <svg class="icon">
-                    <use xlink:href="#facebook-box"></use>
-                </svg>
-            </a>
-        {{/if}}
-        {{#if @site.twitter}}
-            <a class="social-item social-item-twitter"
-                href="{{twitter_url @site.twitter}}" target="_blank"
-                rel="noopener noreferrer" aria-label="Twitter">
-                <svg class="icon">
-                    <use xlink:href="#twitter-box"></use>
-                </svg>
-            </a>
-        {{/if}}
-        <a class="social-item social-item-rss"
-            href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/"
-            target="_blank" rel="noopener noreferrer" aria-label="RSS">
-            <svg class="icon">
-                <use xlink:href="#rss-box"></use>
-            </svg>
-        </a>
+<footer class="relative flex flex-col justify-center h-80">
+        {{!-- Mountain --}}
+    <img src="{{asset 'images/branding/mountains.svg'}}" alt="Pixelated Mountains" class="absolute bottom-0 right-0 max-h-96">
+    
+    <div class="z-10 ml-20 mb-60 md:mb-0">
+        <div class="flex flex-row flex-wrap items-center space-x-4">
+            <img src="{{asset 'images/branding/logo.svg'}}" alt="" class="max-h-20">
+            <h1 class="mb-0 ml-0 text-white ">bishoptech.io</h1>
+        </div>
+        <p class="mt-2 ml-2 text-white">Created by Chris Bishop</p>
+        <h2 class="ml-2 text-white">Follow us!</h2>
+        <div class="flex flex-row mb-10 ml-2 space-x-8">
+            {{!-- <img src="{{asset 'images/branding/icons/BT-BMAC-Icon.svg' }}" alt="" class="h-10">  --}}
+            {{!-- <img src="{{asset 'images/branding/icons/BT-GH-Icon.svg' }}" alt="" class="h-10">  --}}
+            <img src="{{asset 'images/branding/icons/BT-IG-Icon.svg' }}" alt="Pixelated Instagram Logo" class="h-10"> 
+            <img src="{{asset 'images/branding/icons/BT-LI-Icon.svg' }}" alt="Pixelated LinkedIn Logo" class="h-10"> 
+            <img src="{{asset 'images/branding/icons/BT-YT-Icon.svg' }}" alt="Pixelated YouTube Logo" class="h-10"> 
+            <img src="{{asset 'images/branding/icons/BT-TTV-Icon.svg' }}" alt="Pixelated Twitch.tv Logo" class="h-10"> 
+            <img src="{{asset 'images/branding/icons/BT-TWT-Icon.svg' }}" alt="Pixelated Twitter Logo" class="h-10"> 
+        </div>
     </div>
-
-    <div class="copyright">
-        Created by <a href="https://www.chrisbishop.ca/" target="_blank"
-            rel="noopener noreferrer">Chris Bishop</a>
-    </div>
-
-    <nav class="footer-nav">
-        {{navigation type="secondary"}}
-    </nav>
 </footer>
