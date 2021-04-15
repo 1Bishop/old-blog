@@ -1,11 +1,7 @@
-<header class="site-header container">
+<header class="container site-header">
     <div class="header-left">
         <a class="logo" href="{{@site.url}}">
-            {{#if @site.logo}}
-                <img class="logo-image" src="{{@site.logo}}" alt="{{@site.title}}">
-            {{else}}
-                <span class="logo-text">{{@site.title}}</span>
-            {{/if}}
+            <img class="logo-image" src="{{asset 'images/branding/full-logo-small.png'}}" alt="{{@site.title}}">
         </a>
     </div>
     {{#if @site.navigation}}
