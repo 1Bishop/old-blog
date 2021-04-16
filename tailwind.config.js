@@ -1,6 +1,6 @@
 module.exports = {
   purge: [     
-    '**/*.hbs'
+
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
