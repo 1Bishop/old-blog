@@ -25,6 +25,8 @@ collections:
     template: index
     filter: "primary_tag:newsletter"
 
+  # Course example:
+  # make tag url the same as the course
   # /intro-to-coding/:
   #   permalink: /course/{primary_tag}/{slug}/
   #   template: index

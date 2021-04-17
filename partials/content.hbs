@@ -85,9 +85,10 @@
                     <div class="navigation navigation-previous">
                         <a class="navigation-link" href="{{url}}"
                             aria-label="Previous post">
-                            <svg class="icon navigation-icon">
+                            <img src="{{asset 'images/branding/icons/BT-arrow-left.svg'}}" alt="left arrow">
+                            {{!-- <svg class="icon navigation-icon">
                                 <use xlink:href="#arrow-left"></use>
-                            </svg>
+                            </svg> --}}
                         </a>
                     </div>
                 {{/prev_post}}
@@ -97,16 +98,19 @@
                     <h3 class="single-footer-title">Published by:</h3>
                     <div class="author-list">
                         {{#foreach authors}}
+                        <a href="{{url}}" title="{{name}}">
+                        <div class="flex flex-col items-center justify-center">
                             <div
                                 class="author-image-placeholder u-placeholder square">
-                                <a href="{{url}}" title="{{name}}">
                                     <img class="author-image lazyload u-object-fit"
                                         data-srcset="{{img_url profile_image size="xs"}}"
                                         src="{{img_url profile_image size="xs"}}"
                                         srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         alt="{{name}}">
-                                </a>
                             </div>
+                            <h2 class="mt-5 text-4xl">{{name}}</h2>
+                        </div>
+                        </a>
                         {{/foreach}}
                     </div>
                 </div>
@@ -147,9 +151,10 @@
                     <div class="navigation navigation-next">
                         <a class="navigation-link" href="{{url}}"
                             aria-label="Next post">
-                            <svg class="icon navigation-icon">
+                            <img src="{{asset 'images/branding/icons/BT-arrow-right.svg'}}" alt="right arrow">
+                            {{!-- <svg class="icon navigation-icon">
                                 <use xlink:href="#arrow-right"></use>
-                            </svg>
+                            </svg> --}}
                         </a>
                     </div>
                 {{/next_post}}
