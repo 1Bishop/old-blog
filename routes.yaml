@@ -10,6 +10,9 @@ routes:
   /:
     controller: channel
     filter: "tag:-hash-course"
+  # /courses/:
+  #   controller: channel
+  #   filter: "tag:hash-course"
 
 collections:
   /blog/:
@@ -22,11 +25,12 @@ collections:
     template: index
     filter: "primary_tag:newsletter"
 
-  /course/:
-    permalink: /course/{primary_tag}/{slug}/
-    template: index
-    filter: "tag:hash-course"
+  # /intro-to-coding/:
+  #   permalink: /course/{primary_tag}/{slug}/
+  #   template: index
+  #   filter: "tag:hash-course"
+  #   order: asc
 
 taxonomies:
-  tag: /tag/{slug}/
+  tag: /{slug}/
   author: /author/{slug}/
