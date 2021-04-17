@@ -1,8 +1,9 @@
 {{!< default}}
 
-<h1 class="text-white">About Page is here! 🐻‍❄️</h1>
-
-
-{{#page }}
-  {{ content }}
-{{/page}}
+<div class="content-area">
+    <main class="site-main">
+      {{#page}}    
+        {{> content width="wide"}}
+      {{/page}}
+    </main>
+</div>

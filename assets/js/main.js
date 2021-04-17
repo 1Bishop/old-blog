@@ -26,7 +26,8 @@ $(function () {
 
 $(window).on('scroll', function () {
     'use strict';
-    if (body.hasClass('post-template')) {
+    // added or for page toc
+    if (body.hasClass('post-template') || body.hasClass('page-template')) {
         if (timeout) {
             window.cancelAnimationFrame(timeout);
         }
@@ -36,7 +37,8 @@ $(window).on('scroll', function () {
 
 $(window).on('load', function () {
     'use strict';
-    if (body.hasClass('post-template')) {
+    // added or for toc
+    if (body.hasClass('post-template') || body.hasClass('page-template') ) {
         titleOffset = $('.single-title').offset().top;
 
         var content = $('.single-content');
@@ -229,7 +231,8 @@ function table() {
 
 function toc() {
     'use strict';
-    if (body.hasClass('post-template')) {
+    // added for table of contents the or
+    if (body.hasClass('post-template') || body.hasClass('page-template') ) {
         var output = '';
         var toggle = $('.sticky-toc-button');
 
@@ -447,50 +450,6 @@ function theme() {
     'use strict';
     var toggle = $('.js-theme');
     var toggleText = toggle.find('.theme-text');
-
-    // function system() {
-    //     html.removeClass(['theme-dark', 'theme-light']);
-    //     localStorage.removeItem('dawn_theme');
-    //     toggleText.text(toggle.attr('data-system'));
-    // }
-
-    // function dark() {
-    //     html.removeClass('theme-light').addClass('theme-dark');
-    //     localStorage.setItem('dawn_theme', 'dark');
-    //     toggleText.text(toggle.attr('data-dark'));
-    // }
-
-    // dark()
-
-    // function light() {
-    //     html.removeClass('theme-dark').addClass('theme-light');
-    //     localStorage.setItem('dawn_theme', 'light');
-    //     toggleText.text(toggle.attr('data-light'));
-    // }
-
-    // switch (localStorage.getItem('dawn_theme')) {
-    //     case 'dark':
-    //         dark();
-    //         break;
-    //     case 'light':
-    //         light();
-    //         break;
-    //     default:
-    //         system();
-    //         break;
-    // }
-
-    // toggle.on('click', function (e) {
-    //     e.preventDefault();
-
-    //     if (!html.hasClass('theme-dark') && !html.hasClass('theme-light')) {
-    //         dark();
-    //     } else if (html.hasClass('theme-dark')) {
-    //         light();
-    //     } else {
-    //         system();
-    //     }
-    // });
 }
 
 

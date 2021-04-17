@@ -4,41 +4,29 @@ routes:
   /signin/: members/signin
   /account/: members/account
   /upgrade/: members/upgrade
-  /resume/:
-    template: resume
-    data: page.resume
   /about/:
     template: about
     data: page.about
+  /:
+    controller: channel
+    filter: "tag:-hash-course"
 
 collections:
-  /:
+  /blog/:
     permalink: /blog/{slug}/
     template: index
-    filter: tag:hash-blog
+    filter: "tag:-hash-course+primary_tag:-newsletter"
+
+  /newsletters/:
+    permalink: /newsletter/{slug}/
+    template: index
+    filter: "primary_tag:newsletter"
+
+  /course/:
+    permalink: /course/{primary_tag}/{slug}/
+    template: index
+    filter: "tag:hash-course"
 
 taxonomies:
   tag: /tag/{slug}/
   author: /author/{slug}/
-# collections:
-#   /blog/:
-#     permalink: /blog/{slug}/
-#     template: index
-#     filter: tag:-blog
-#     data: tag.blog
-# routes:
-# /:
-#   data: page.home
-#   template: home
-
-# collections:
-#   /blog/:
-#     permalink: /blog/{slug}/
-#     template: index
-
-# Using Private tags
-# /posts/:
-#   permalink: /posts/{slug}/
-#   template: index
-#   filter: tag:hash-post
-#   filter: tag:[iphone,ipad,mac]
