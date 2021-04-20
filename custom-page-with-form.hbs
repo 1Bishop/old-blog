@@ -5,7 +5,7 @@
         {{#post}}
             {{> content width="wide"}}
         {{/post}}
-        <form action="https://formspree.io/f/moqpgydn" class="container contact-form small" method="POST">
+        <form action="https://formspree.io/f/moqpgydn" class="container contact-form small" method="POST" id='my-form'>
             <label>
                 Name:
                 <input type="text" name="name" required>
@@ -21,6 +21,31 @@
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             <input type="hidden" name="_next" value="{{@site.url}}/thanks/">
             <button class="button" type="submit">Submit</button>
+            <p id="my-form-status" class="p-4 mt-8 text-3xl text-center"></p>
         </form>
+        
+
+        <script>
+            var form = document.getElementById("my-form");
+            
+            async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                status.innerHTML = "Thanks for your submission!";
+                form.reset()
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+            }
+            form.addEventListener("submit", handleSubmit)
+        </script>
     </main>
 </div>
