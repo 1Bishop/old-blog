@@ -4,14 +4,10 @@
     <main class="site-main">
         {{#post}}
             {{> content no_image=true}}
+        {{/post}}
         {{#is "post"}}
             {{> related}}
             {{> comment}}
         {{/is}}
-        {{/post}}
-        {{!-- {{#is "post"}}
-            {{> related}}
-            {{> comment}}
-        {{/is}} --}}
     </main>
 </div>
