@@ -46,18 +46,6 @@ Light - ebf7fc
 
 Additional Blue that is not used often but can be added - 2c6baf (Saturated Neutral Blue)
 
-# Tasks for Cristain
-
-- [ ] Icons:
-  - [ ] Site menu
-  - [ ] table of contents
-  - [ ] Search Icons
-  - [ ] RSS
-- [ ] Style Guide PDF (colors and usage)
-- [ ] Update Business Cards
-- [ ] Series Posters (Rectangle) in canva
-- [ ] Square Logo image 800x800px
-
 # Theme
 
 1. Edit colors in the `misc/dark.css`
