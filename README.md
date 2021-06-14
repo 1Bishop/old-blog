@@ -8,27 +8,10 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 
 # TODO
 
-- [x] Added FormSpree
-- [ ] Update Canva Templates
-- [ ] Set up footer
-- [ ] Fix author on posts
-- [ ] Add my icons:
-  - [ ] post next and prev
-  - [ ] look at getting search and menu icons
-- [ ] Add highlight.js to site code blocks
-- [ ] Add custom fonts to theme (source code pro and dank mono)
-- [x] add tailwindcss?
-- [ ] Set up home page
-- [ ] Fix blog page to have bg + Blog Text
-- [ ] Make about page
+- [ ] Add Disclaimer based on hidden tag
+  - Disclaimer: This article is for ethical and educational purposes only! 
 - [ ] Tags page (listing out series)
 - [ ] set up Author Page to link to about
-- [ ] Add Share to LinkedIn Button
-- [ ] Create Contact Page
-- [ ] Set up Subscriptions
-- [ ] Set up Zapier
-- [ ] Resume Page
-- [ ] Style HR in the home page to look like a dotted line (pixels)
 
 # Colors:
 
