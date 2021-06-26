@@ -9,9 +9,26 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 # TODO
 
 - [ ] Add Disclaimer based on hidden tag
-  - Disclaimer: This article is for ethical and educational purposes only! 
+  - Disclaimer: This article is for ethical and educational purposes only.
 - [ ] Tags page (listing out series)
-- [ ] set up Author Page to link to about
+- [ ] Set up Author Page to link to about
+- [ ] Create a hire me page 
+  - Offering Shopify Store Creation
+  - Vulnerability Testing 
+  - Penetration Testing 
+- [ ] Store Page 
+  - [ ] Offer Shopify Themes
+  - [ ] Offer Ghost Themes
+  - [ ] Offer Vue / Nuxt Themes
+- [ ] Courses 
+  - [ ] Intro to Cybersecurity 
+  - [ ] Intro to Penetration Testing 
+  - [ ] Intro to Web Development
+  - [ ] Intro to Coding with Python
+  - [ ] Intro to Go for Pentesting 
+
+
+
 
 # Colors:
 
