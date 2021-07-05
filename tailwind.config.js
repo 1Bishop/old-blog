@@ -27,7 +27,9 @@ module.exports = {
         'lm-light': '#ebf7fc',
 
         // Additional Blue that is not used often but can be added - 2c6baf (Saturated Neutral Blue)
-        'neutral-blue': '#2c6baf'
+        'neutral-blue': '#2c6baf',
+        'linked-in': '#0077B5',
+        'twitter': '#1DA1F2'
 
       }
     },
