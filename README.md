@@ -8,24 +8,52 @@ A highly functional theme that adapts to the reader's preferences. Let them read
 
 # TODO
 
+- [ ] Change virbiage to Blockchain development
+- [ ] Update Tagging Structure and Define it here. 
+- [ ] Investing in Crypto
+   - Please not this is not finanical advice, I am not a certified professional. These are only my opinion towards how I am investing. 
+
 - [ ] Add Disclaimer based on hidden tag
   - Disclaimer: This article is for ethical and educational purposes only.
 - [ ] Tags page (listing out series)
 - [ ] Set up Author Page to link to about
 - [ ] Create a hire me page 
   - Offering Shopify Store Creation
-  - Vulnerability Testing 
-  - Penetration Testing 
+  - Blockchain Development
+  - Full-Stack Web Development 
 - [ ] Store Page 
   - [ ] Offer Shopify Themes
   - [ ] Offer Ghost Themes
   - [ ] Offer Vue / Nuxt Themes
 - [ ] Courses 
-  - [ ] Intro to Cybersecurity 
-  - [ ] Intro to Penetration Testing 
-  - [ ] Intro to Web Development
-  - [ ] Intro to Coding with Python
-  - [ ] Intro to Go for Pentesting 
+  - [ ] Intro to Ethereum Development
+
+
+# Tag Guide
+
+## Category 
+A category has a public tag which is the category you would like the post to fall under. The primary or first tag is the only one that will appear on post cards and all other 
+
+### List of Categories
+- Blockchain
+- Weekly Update
+  + What did i do this week? 
+  + Lesson of the Week?
+  + FIRE Goal update
+  + Fit Goal
+  + Recommendation of the week
+- Solidity
+- Javascript
+- Vue
+- Announcement
+- Monthly Newsletter
+- Career Advice
+- Dictionary
+
+
+## Course 
+Has a public Tag which is the name of the course and a private tag "course" to identify it is in fact a course. 
+
 
 
 
